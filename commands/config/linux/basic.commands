@@ -1,0 +1,4 @@
+#include unix/basic.commands
+locate '<pattern>'          Locate files on the file system based on a pattern
+cal                         Display calendar for current month
+cal 7 1987                  Display calendar for July 1987

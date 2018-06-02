@@ -1,0 +1,2 @@
+:map                                    Will display all current mappings
+:ls                                     Will list all the files opened in vim

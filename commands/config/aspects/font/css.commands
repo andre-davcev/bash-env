@@ -1,0 +1,8 @@
+Properties
+------------------------------------------------------------------------------------------
+Default Font Size               10px
+All elements font-size          inherit
+Padding                         ems
+Margin                          rems
+Border Color                    n/a (will use text color)
+------------------------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+sudo npm install -g npm-check-updates           Install npm-check-updates
+ncu                                             Show npm dependencies and their available updates
+ncu -m bower                                    Show bower dependencies and their available updates
+ncu -u                                          Upgrade npm dependencies
+ncu -m bower -u                                 Upgrade bower dependencies

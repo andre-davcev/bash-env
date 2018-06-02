@@ -1,0 +1,12 @@
+x                                       Delete character
+X                                       Delete character before cursor
+dw                                      Delete word
+dd                                      Delete line
+cc                                      Delete line and go to insert mode for that line
+d<number>                               Delete current line + <number> lines
+d/<search_text>                         Delete from cursor until it matches search text
+diw                                     Delete current word
+diW                                     Delete all characters in word stream until white space
+daw                                     Delete current word and white space
+daW                                     Delete all characters in word stream until end of white space
+das                                     Delete sentence including trailing white space

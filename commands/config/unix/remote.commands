@@ -1,0 +1,20 @@
+ssh -l <username> <server>                                                  SSH to a server
+ssh <username>@<server> <command>                                           Run command on remote
+ssh -L *:<local_port>:<target_host>:<host_port> <username>@<local_host>     SSH tunnel for target host and mirror access to local machine
+scp <local_file> <username>@<host>:<path>/<file>                            Remote copy
+mkdir ~/.ssh                                                                Create SSH keys for remote host login without credentials
+    chmod 700 ~/.ssh                                                        Change permissions of local ssh directory
+    cd ~/.ssh                                                               Change into ssh directory
+    ssh-keygen -t rsa                                                       Generate SSH key
+    [Enter]
+    [Enter]
+    [Enter]
+    scp ~/.ssh/id_rsa.pub <remote_username>@<host>:~/.ssh                   Remote copy the key to remote host ssh directory
+    <password>
+    [Enter]
+    ssh <remote_username>@<host>                                            SSH to remote host
+    [Enter]
+    cd ~/.ssh                                                               Change into remote ssh directory
+    cat id_rsa.pub >> authorized_keys                                       Append the key to the authorized keys on the server
+    chmod 700 authorized_keys                                               Alter the permissions of the authorized keys file
+    yes | rm id_rsa.pub                                                     Remove the key file

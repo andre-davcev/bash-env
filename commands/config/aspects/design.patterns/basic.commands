@@ -1,0 +1,5 @@
+Strategy            Move complex algorithms to their own class heirarchy
+Observer            See RXJS Observables
+Decorator           Use constructors to decorate objects at runtime
+Factory             Move product/object creation to it's own class heirarchy
+Command             

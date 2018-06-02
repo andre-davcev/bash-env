@@ -1,0 +1,9 @@
+mkdir <project>                                                             Create a new project folder
+    cd <project>                                                            Move to project folder
+    git init                                                                Initialize project
+    touch README                                                            Create readme file
+    git add README                                                          Add readme to stagin
+    git commit -m 'Initial Commit'                                          Initial commit
+    git remote add origin git@github.com:theorynetwork/<project>.git        Add project to github
+    git push -u origin master                                               Push master branch to github
+mkdir <organization>.github.com                                             Github will create a static website for us if we use this naming structure

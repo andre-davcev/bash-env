@@ -1,0 +1,8 @@
+Leading (Line Spacing) - 0.3em-0.5em > Font Size
+{line-height: 150%;}
+
+Remember the line-height CSS property.
+A good rule of thumb is line-spacing that’s at least 140% of your text size (ie line-height: 1.5em)
+
+If the rhythm of the page is to be maintained, the spacing of paragraphs should be related to the basic line height.
+This is achieved simply by setting top- and bottom-margins equal to the line height.

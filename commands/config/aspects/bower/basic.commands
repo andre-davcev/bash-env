@@ -1,0 +1,10 @@
+sudo npm -install -g bower                          Install Bower
+bower init                                          Interactively generate your bower.json file
+bower install <package>                             Install package
+bower install <package>#<version>                   Install specific package of version
+bower install <name>=<package>#<version>            Install with different name
+bower install --save <package>                      Will put package in bower.json file which much be created or already exist
+bower help                                          Will display help
+bower link <name> [<local_name>] [<options>]        Link an already existing package
+bower list                                          Will display your installed packages
+bower prune                                         Will remove extra packages that we don't need anymore

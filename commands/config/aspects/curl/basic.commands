@@ -1,0 +1,2 @@
+curl http://<address>/<file>                                            Will cat the web file to the console
+curl -Of http://<address>/<file>                                        Will download the file but will not create the file if it doesn't exist

@@ -1,0 +1,9 @@
+#include unix/security.commands
+/etc/default/passwd         Default user/password file
+/etc/default/login          Default login file
+/etc/shadow                 Shadow file
+/etc/nsswitch.conf          NS Switch configuration file
+/usr/bin/svcs -a            Service listing
+/etc/ftpd/ftpusers          FTP user listing
+/usr/bin/showrev
+/usr/bin/uname -a           OS type

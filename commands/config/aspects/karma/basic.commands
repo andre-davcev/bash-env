@@ -1,0 +1,2 @@
+karma --version                             Get the Karma version
+karma start <config_file>                   Start Karma

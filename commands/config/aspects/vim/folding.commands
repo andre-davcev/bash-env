@@ -1,0 +1,11 @@
+:set fdm=syntax                         Set automatic folding based on syntax
+:set fdm=marker                         Set folding based on markers
+zf <number>j                            Create fold for <number> amount of lines
+zo                                      Open fold
+zO                                      Open folds from position and all folds inside
+zc                                      Close fold
+zC                                      Close folds from position to top
+zd                                      Delete fold
+zf%                                     Place cursor on { or if and it will create fold on closing bracket
+zi                                      Enable/disable folding for this file
+zZ                                      Close all folds from cursor up to top

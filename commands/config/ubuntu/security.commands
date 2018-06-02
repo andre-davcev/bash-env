@@ -1,0 +1,10 @@
+ufw default allow                               Allow outside access to all ports by default
+ufw default deny                                Deny outside access to all ports by default
+ufw enable                                      Enable firewall
+ufw disable                                     Disable firewall
+ufw allow <port>                                Tell firewall to allow access to specified port
+ufw deny                                        Tell firewall to deny access to specified port
+ufw delete allow <port>                         Delete firewall rule allowing access to port
+ufw delete deny <port>                          Delete firewall rule denying access to port
+ufw allow <ip_address>                          Allow IP address to access all ports
+ufw allow <ip_address> <port>                   Allow IP address to access specified port

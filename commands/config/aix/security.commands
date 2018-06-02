@@ -1,0 +1,5 @@
+#include unix/security.commands
+/etc/security/user
+/etc/security/passwd        Security passwd file
+/usr/bin/oslevel -s         OS type
+/usr/sbin/instfix -ia

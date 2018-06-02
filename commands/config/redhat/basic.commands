@@ -1,0 +1,2 @@
+yum update                      Update command will update Red Hat OS to latest
+yum install <package>           Will install a specific packagee

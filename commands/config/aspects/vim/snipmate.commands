@@ -1,0 +1,8 @@
+fun<tab>                                                        In a js file it will fill out function function_name (argument) { // body ... }
+    <tab>                                                       Will select function_name which you can rename
+    <tab>                                                       Will select argument which you can rename
+    <tab>                                                       Will select body which you can rename
+pro<tab>                                                        In a js file will create class_name.prototype.method_name = function(first_argument) { // body };
+for<tab>                                                        In a js file will create for loop
+vi ~/.vim/bundle/snipmate.vim/snippets/<language>.snippets      You can customize or create your own snippets
+                                                                If you have more than 1 snippet with same name it will prompt user for which one

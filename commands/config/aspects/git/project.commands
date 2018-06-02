@@ -1,0 +1,38 @@
+cd <project>; git init                      Initialize a project
+git status                                  Get the status of our project and show untracked files
+git add <filename>                          Will start tracking a file
+                                                If no changes are made after, the commit will push this file
+                                                If changes are made after add, only the initial file will be committed
+                                                To add the newest changes for file run git add <filename> again
+git add -i                                  Interactively add files 
+git commit                                  Will commit only staged files
+git commit -m '<comments>'                  Will commit only staged files with comment
+git commit -a -m '<comments>'               Will commit all previously committed files, not just staged files
+git commit .                                Would commit all files in current directory
+git diff <file>                             Shows difference between file and last commit
+git diff --staged <file>                    Shows different between staged file and last commit
+git diff HEAD <file>                        Shows difference between file and last commit
+git diff <hash> <hash>                      Show hash difference
+git log                                     Get history of commits
+git log --stat                              Get history of commits with stats
+git log --oneline                           Useful for getting hashes of commits
+    git diff <hash> <file>                  Get a diff between file and hash commit
+git log --graph                             Shows branches
+git log --pretty="%h, %cn, %cr"             Custom log output "hash, committer, time since commit"
+git log --online --graph --all --decorate   Nice log display
+gitk                                        A UI for history
+git branch                                  Displays list of branches a displays current
+git branch <name>                           Creates a branch
+git branch -a                               Show all branches
+git checkout <branch>                       Switches to a specified branch
+git checkout -b <branch>                    Create a new branch and then checkout file under that branch
+git merge <branch> -m '<comments>'          Merge branch to master. Any conflicts that can't be auto merged are displayed in conflict files 
+git branch -d <branch>                      Delete branch (won't remove old merges)
+git rebase <branch>                         Streamlines branches into master so that you can keep history clean
+git stash                                   Stash away all current changes for a later time and revert to previously committed version
+git stash list                              List all the stashes
+git stash apply                             Bring back the latest stash and apply to working directory but will get rid of other stashes
+git stash apply stash@{<id>}                Apply the specific stashed changes that you saw in the git stash list
+git stash drop stash@{<id>}                 Delete the specified stashed change
+git stash pop                               Re-apply the stashed changed
+git reset --hard                            Remove your uncommitted changes

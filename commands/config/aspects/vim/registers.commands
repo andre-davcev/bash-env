@@ -1,0 +1,2 @@
+:reg                                    Will show all your registers (copies/pastes/etc) double quote register is default "
+"<letter><action>                       Will perform an action using the register at <letter>

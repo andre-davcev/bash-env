@@ -1,0 +1,11 @@
+ds(                                         Will delete surrounding parentheses, brackets etc for current word (surround plugin)
+dst                                         Delete surrounding tags like <html> etc
+cs({                                        Will change surrounding parenthesis to curly braces
+ys<text_select_command><surround_chars>     Will surround text with characters specified
+    ysiw"                                   Will surround inner word (iw) with double quotes "<word>"
+    ysaw{                                   Will surround around word (aw) with { <word> }
+    ySiw<em>                                Will surround inner word (iw) with <em> tags with indents and on new line
+    yss`                                    Will surround with backticks
+    ySS<p class="code>                      Will surround, indent and have new lines for <p class="code>line</p>
+    <ctrl+g>s<surrounding_text>             Will allow you to put surrounding text in insert mode
+    <ctrl+g>s(                              If you had cursor after word function it would put function( )

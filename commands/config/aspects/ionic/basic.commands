@@ -1,0 +1,8 @@
+ionic start <project>                           Will create new project using Ionic seed project
+    cd <project>                                Move to project directory
+ionic platform ios                              Add iOS dependencies
+ionic platform android                          Add Android dependencies
+ionic emulate <platform>                        Deploy platform
+ionic run <platform>                            Run app
+ionic state reset                               This will remove plugins and platforms and re-add them to the package.json file
+ionic plugin add <plugin>                       Add plugin to project and package.json

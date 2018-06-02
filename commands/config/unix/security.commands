@@ -1,0 +1,7 @@
+/etc/sudoers		    Sudoers file
+/etc/passwd                 User/password file
+/etc/profile                User profile
+/usr/bin/adinfo             Active directory info
+/var/spool/cron/crontabs    Crontabs directory]
+/etc/inetd.conf             Services configuration file
+/etc/dfs/dfstab

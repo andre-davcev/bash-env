@@ -1,0 +1,6 @@
+- Encapsulate what varies
+- Composition > Inheritance
+- Program to interfaces not implementations
+- Strive for loosely coupled design between objects that interact
+- Classes should be open for extension, but closed for modification
+- Depend on abstractions, do not depend on concrete classes

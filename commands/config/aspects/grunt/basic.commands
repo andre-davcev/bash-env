@@ -1,0 +1,17 @@
+sudo npm install -g grunt-cli                                   Installs the Grunt command line interface globally
+sudo npm install -g grunt-init                                  Allows you to create Grunt templates
+sudo init                                                       Helps you create your intial package.json
+npm install grunt                                               After the doing the initial init, we install Grunt locally in project folder
+npm install grunt --save-dev                                    Installs your project grunt with dev dependency 
+grunt --version                                                 Find your Grunt version
+vi Gruntfile.js                                                 Open and create your main Grunt file
+grunt <task>                                                    Run a specific task specified in your Gruntfile.js initConfig
+                                                                    Will run all targets specified after options
+grunt <task>:<target_name>                                      Will run the task and only run 1 specific target
+grunt                                                           Will run the 'default' task listed by registerTask in the Gruntfile
+grunt <task> --force                                            Will run the task and continue even if there are errors
+git clone git://github.com/gruntjs/grunt-init-gruntplugin.git   Get the helper template for creating your own grunt plugins
+grunt serve                                                     Looks for Gruntfile.js and run a server at port 127.0.0.1:9000 (formerly 'grunt server')
+grunt test                                                      Test your application
+grunt serve                                                     Preview your app (formerly 'grunt server')
+grunt help                                                      Bring up grunt help screen

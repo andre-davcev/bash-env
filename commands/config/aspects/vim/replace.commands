@@ -1,0 +1,6 @@
+:s/<text_pattern>/<replace_text>/       Only replace text in current line
+:%s/<text_pattern>/<replace_text>/      Search and replace first instance of text
+:%s/<text_pattern>/<replace_text>/g     Search and replace all instance of text
+:%s//<replace_text>/                    If you leave text blank vim will replace using last searched item
+r<string>                               Will replace the character under the cursor with string
+gUis                                    Make current sentence upper case

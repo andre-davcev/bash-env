@@ -1,0 +1,4 @@
+runas /user:<local_admin_username> "msiexec /i C:\<path>\<installer_name>.msi"      Run Windows installer as local admin
+for %i in (javac.exe) do @echo. %~$PATH:i                                           Find JDK install path
+wmic -U <domain>/<username> //<server> "select * from Win32_LogicalDisk"            Use admin account to get server information
+ 

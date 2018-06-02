@@ -1,0 +1,29 @@
+vi(                                     Will select all text inside parenthesis
+va(                                     Will select all text inside and including parenthesis
+vi{                                     Will select all text inside curly braces
+va{                                     Will select all text inside and including curly braces
+vi[                                     Will select all text inside brackets
+va[                                     Will select all text inside and including brackets
+vi"                                     Will select all text inside double quotes
+va"                                     Will select all text inside and including double quotes
+vi'                                     Will select all text inside single quotes
+va'                                     Will select all text inside and including single quotes
+vi`                                     Will select all text inside backticks
+va`                                     Will select all text inside and including backticks
+vf<char>                                Select all text from cursor to first instance of char
+viw                                     Select the current word
+viW                                     Select all the continuous characters until white space
+vaw                                     Select current word and any white space after
+vaW                                     Select all the continuos characters until end of next white space
+vip                                     Select current paragraph
+vap                                     Select current paragraph and trailing white space
+o                                       When a section of text is selected this will toggle between opposite corners
+O                                       When a section of text is selected this will toggle between opposite sides
+vit                                     With cursor before html tag, this will select text inside tag
+vat                                     With cursor before html tag, this will select tag and inside text
+V                                       Start visual mode which allows you to select lines
+    [Select Text]                       Select text by moving cursor down
+    >                                   Will indent whole select
+    =                                   Will auto-indent the selection
+    =G                                  Will auto-indent the whole file
+gv                                      Will re-select previously selected visual mode selection

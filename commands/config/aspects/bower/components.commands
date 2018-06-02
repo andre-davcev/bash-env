@@ -1,0 +1,4 @@
+bower install jquery                        Install jQuery
+bower install firebase                      Install Firebase
+bower install firebase-simple-login         Install Firebase Simple Login
+bower install angularfire                   Install Angular Fire

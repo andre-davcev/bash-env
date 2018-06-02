@@ -1,0 +1,5 @@
+git remote add origin git@github.com:<organization>/<project>.git   Add project to github
+git push -u origin master                                           Push master branch to remote server using default origin remote name
+git remote                                                          Shows current remotes which usually by default is only origin
+git fetch                                                           Pulls any updates from remote server but is not destructive like 'git pull' but needs merging
+git clone https://github.com/<organization>/<project>.git           Clone a github repository/project

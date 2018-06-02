@@ -1,0 +1,9 @@
+npm install grunt --save-dev                            Install Grunt
+npm install grunt-contrib-copy --save-dev               Install Grunt copy 
+npm install grunt-contrib-jshint --save-dev             Install JSHint
+npm install grunt-contrib-uglify --save-dev             Install Uglify for JS minification
+npm install grunt-contrib-cssmin --save-dev             Install CSS Min for css minification
+npm install grunt-contrib-concat --save-dev             Install Concat for file concatenation
+npm install grunt-contrib-watch --save-dev              Install Watch which will watch for changed files in a project and load them
+npm install grunt-contrib-clean --save-dev              Install Clean task which will remove unwanted files
+npm install grunt-bower-install --save-dev              Install Grunt Bower Install
