@@ -1,0 +1,1 @@
+source "~/Projects/bash/bash/profile.sh"
