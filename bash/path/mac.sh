@@ -5,5 +5,6 @@ PATH=$PATH:/usr/local/apache-tomcat-7.0.8/bin
 PATH=$PATH:/usr/local/mysql/bin
 PATH=$PATH:${JAVA_HOME}/bin
 PATH=$PATH:${ANDROID_HOME}/tools
+PATH=$PATH:/Applications/Sketch.app/Contents/Resources/sketchtool/bin
 
 export PATH
