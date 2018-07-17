@@ -1,5 +1,5 @@
 #!/bin/bash
-environment=`dirname "$BASH_SOURCE"`
+environment=`dirname ${BASH_SOURCE[0]}`
 
 case "$OSTYPE" in
   linux*)   export env='windows';  echo "OS: Linux / WSL" ;;
@@ -11,33 +11,33 @@ case "$OSTYPE" in
   *)        export env='unknown';  echo "OS: Unknown" ;;
 esac
 
-if [[ -d "${environment}" ]]
+if [[ -d ${environment} ]]
 then
-    pushd "${environment}" > /dev/null
+    pushd ${environment} > /dev/null
 
-    source "functions/base.sh"
-    source "functions/${env}.sh"
+    source functions/base.sh
+    source functions/${env}.sh
 
-    source "directories/base.sh"
-    source "directories/${env}.sh"
+    source directories/base.sh
+    source directories/${env}.sh
 
-    source "exports/base.sh"
-    source "exports/${env}.sh"
+    source exports/base.sh
+    source exports/${env}.sh
 
-    source "path/base.sh"
-    source "path/${env}.sh"
+    source path/base.sh
+    source path/${env}.sh
 
-    source "settings/base.sh"
-    source "settings/${env}.sh"
+    source settings/base.sh
+    source settings/${env}.sh
 
-    source "aliases/base.sh"
-    source "aliases/${env}.sh"
+    source aliases/base.sh
+    source aliases/${env}.sh
 
-    source "aspects/dev.sh"
-    source "aspects/fantasia.sh"
-    source "aspects/firefly.sh"
-    source "aspects/games.sh"
-    source "aspects/photos.sh"
+    source aspects/dev.sh
+    source aspects/fantasia.sh
+    source aspects/firefly.sh
+    source aspects/games.sh
+    source aspects/photos.sh
 
     popd > /dev/null
 fi

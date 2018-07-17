@@ -1,1 +1,1 @@
-source "~/Projects/bash/bash/profile.sh"
+source ~/Files/Bash/bash/profile.sh
