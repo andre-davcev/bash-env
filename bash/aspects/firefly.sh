@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # DIRECTORIES
-export firefly=${projects}/Firefly
+export firefly=${projects}/Theory
 
 # ALIASES - DIRECTORIES 
 aliases firefly
