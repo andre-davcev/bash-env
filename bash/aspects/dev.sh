@@ -2,4 +2,5 @@
 
 # ALIASES - DEVELOPMENT
 alias npmperms='sudo chown -R $USER ~/.npm'
-alias npmls='npm list -g --depth=0'
+alias npmlsg='npm outdated -g --depth=0'
+alias npmls='npm outdated --depth=0'
