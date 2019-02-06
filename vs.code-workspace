@@ -1,8 +1,13 @@
 {
-	"folders": [
+	"folders":
+	[
+		{
+			"path": "../..",
+			"name": "user-home"
+		},
 		{
 			"path": "."
-		}
+		},
 	],
 	"settings": {}
 }
