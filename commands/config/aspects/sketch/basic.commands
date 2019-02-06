@@ -1,9 +1,0 @@
-sketchtool help                                                                                                                                         Display SketchTool help
-sketchtool list slices <file.sketch>                                                                                                                    List slices 
-sketchtool list artboards <file.sketch>                                                                                                                 List artboards
-sketchtool list pages <file.sketch>                                                                                                                     List pages 
-sketchtool export slices <doc.sketch> --output=<folder> --items=<names-or-ids> --scales="1.0, 2.0" --formats="png,pdf,eps,jpg"                          Export slices
-sketchtool export artboards <doc.sketch> --output=<folder> --items=<names-or-ids> --scales="1.0, 2.0" --formats="png,pdf,eps,jpg"                       Export artboards
-sketchtool export pages <doc.sketch> --output=<folder> --items=<page-names-or-ids> --bounds="0,0,256,256" --scales="1.0, 2.0" --formats="jpg"           Export rectangles from pages at 1 & 2 scales as jpgs
-sketchtool export <type> <doc.sketch>  --formats= --scales= --items=<slices,artboards,pages> --bounds=<all> --output=<pwd>  --trimmed=NO --reveal=NO    SketchTool default values
-sketchmigrate convert <old-file-path> <new-file-path>                                                                                                   Migrate old Sketch document

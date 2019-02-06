@@ -1,5 +1,0 @@
-p                                       Paste from clipboard
-P                                       Paste from clipboard before the cursor
-[ctrl+r]"<register>                     Allows you to paste from your register in insert mode
-:r !pbpaste                             Paste from Mac clipboard
-,p                                      My custom mac paste command

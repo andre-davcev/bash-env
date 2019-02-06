@@ -1,3 +1,0 @@
-m<character>                            Place a cursor marker stored in register labeled by <character>
-'<character>                            Go to the marker that was stored in register <character>
-''                                      Go to previous marker

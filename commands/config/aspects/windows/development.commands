@@ -1,5 +1,0 @@
-"C:\Program Files\Android\android-sdk\tools\android.bat"        Edit android.bat file to bypass the proxy  
-    Add 	-Dhttp.proxyUsername="<domain>\<username>" -Dhttp.proxyPassword="<password>" 
-    To	call %java_exe% %REMOTE_DEBUG% -Dcom.android.sdkmanager.toolsdir="%tools_dir%" -Dcom.android.sdkmanager.workdir=%work_dir% -Dhttp.proxyUsername="<domain>\<username>" -Dhttp.proxyPassword="<password>" -classpath "%jar_path%;%swt_path%\swt.jar" com.android.sdkmanager.Main %*
-C:\Documents and Settings\<username>\.android\androidtool.cfg   Edit androidtools.cfg for proxy bypass
-    Add	http.proxyLogin=<username>@<password>"

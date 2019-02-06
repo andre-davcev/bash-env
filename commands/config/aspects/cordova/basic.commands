@@ -1,5 +1,0 @@
-cordova create <project_folder> com.<domain>.<app_name> <App_name>          Will create project folder for specified domain and app name
-    cd <project_folder>                                                     Move to project directory and run the rest of the commands from here
-cordova platform add ios                                                    Add iOS platform
-cordova platform add android                                                Add Android platform
-cordova plugin add <plugin>                                                 Add a plugin to your project                                

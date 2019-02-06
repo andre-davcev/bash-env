@@ -1,3 +1,0 @@
-/var/log                    System logs
-/var/log/syslog             Current system logs
-/etc/syslog.conf            System log configuration file

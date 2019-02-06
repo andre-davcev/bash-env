@@ -1,2 +1,0 @@
-#include unix/network.commands
-whereis <command>                   Find where a program is located

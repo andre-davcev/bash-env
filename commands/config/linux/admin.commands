@@ -1,3 +1,0 @@
-#include unix/admin.commands
-whereis
-sudo du -a / | sort -n -r | head -n 100 > large.files.txt	# Display 100 largest directories/files

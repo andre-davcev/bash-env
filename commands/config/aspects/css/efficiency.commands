@@ -1,9 +1,0 @@
-1) ID                  #header
-2) Class               .promo
-3) Type                div
-4) Adjacent Sibling    h2 + p
-5) Child               li > ul
-6) Descendant          ul a
-7) Universal           *
-8) Attribute           [type="text"]
-9) Pseudo-Classes      a:hover

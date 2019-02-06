@@ -1,3 +1,0 @@
-:call <function>()                      Call a named function you created in your vimrc file
-     command! <name> call <function>()  Will allow you to replace your function name with a command instead
-     :<command>                         Then you could call your command like this or create a mapping

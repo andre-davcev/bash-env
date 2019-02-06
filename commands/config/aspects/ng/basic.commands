@@ -1,2 +1,0 @@
-ng build --prod --stats-json            Will create dist/stats.json file which contains analysis of the bundles
-ng build --prod --build-optimizer       Optimize your prod build

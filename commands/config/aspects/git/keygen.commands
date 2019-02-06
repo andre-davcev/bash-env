@@ -1,8 +1,0 @@
-ssh-keygen -t rsa -C '<email>'          Create ssh key for github
-    [Default]                           Default file
-    <passphrase>                        Create passphrase
-${HOME}/.ssh/id_rsa.pub                 Copy and paste contents to github
-ssh -t git@github.com                   Connect to github via ssh
-    yes                                 Continue
-    [Check]                             Make sure "Remember password in my keychain" is checked       
-    <passphrase>                        Authenticate and permanently add to keychain

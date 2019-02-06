@@ -1,8 +1,0 @@
-yw                                      Copy word
-yy                                      Copy current line
-y<number>                               Copy current line + <number> lines
-y/<search_text>                         Copy from cursor until it matches search text
-yiw                                     Copy current word
-yiW                                     Copy all characters in word stream until white space
-yaw                                     Copy current word and white space
-yaW                                     Copy all characters in word stream until end of white space

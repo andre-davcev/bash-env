@@ -1,9 +1,0 @@
-q<character>                            Will start recording a macro and store in register <character>
-    gg                                  Go to top of file
-    O                                   Insert line above top line
-    <text>                              Write text on line
-    :w                                  Save file
-    :bn                                 Go to next file
-    :q                                  Stop recording macro
-    @<register_char>                    Execute macro
-    3@<register_char>                   Or execute macro 3 times

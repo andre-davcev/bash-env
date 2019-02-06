@@ -1,3 +1,0 @@
-sudo vi /etc/apache2/httpd.conf                                                     Change default Mac Apache web directory
-    DocumentRoot "/Library/WebServer/Documents"                                     Search for pattern and replace with new path
-    sudo -u root apachectl restart                                                  Restart the Mac Apache server

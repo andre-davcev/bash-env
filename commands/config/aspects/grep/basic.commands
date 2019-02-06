@@ -1,5 +1,0 @@
-grep "<search_text>" <file_pattern>                         Find the specified text in a file
-grep -i "<search_text>" <file_pattern>                      Find the specified text case insensitive
-grep -r "<search_text>" <file_pattern>                      Recursively grep through directory structure looking for the text
-grep -l "<search_text>" <file_pattern>                      Grep for the text but only return the file name and not the text
-find . -name "*.txt" -exec grep "<search_text>"             Grep for text in the files specified
