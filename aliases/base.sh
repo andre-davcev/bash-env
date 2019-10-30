@@ -15,5 +15,4 @@ alias profile='vi "${home}/.profile"'
 alias pload='. "${home}/.profile"'
 
 # ALIASES - SHELLS 
-alias c='${shells}/commands/commands.sh'
-alias convert='${shells}/convert/convert.sh'
+alias secure='${shells}/util.sh'

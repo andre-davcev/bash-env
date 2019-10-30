@@ -2,12 +2,8 @@
 
 # DIRECTORIES
 export applications=/Applications
-export shells=${projects}/Bash
-export aspects=${shells}/commands/config/aspects
-export external=/Volumes/MyPassport/
+export external=/Volumes/MyPassport
 
 # ALIASES - DIRECTORIES 
 aliases applications\
-        shells\
-        aspects\
         external
